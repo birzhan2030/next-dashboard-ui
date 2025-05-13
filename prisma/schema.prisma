@@ -1,4 +1,4 @@
-generator client {
+generator client  {
   provider = "prisma-client-js"
 }
 
@@ -11,7 +11,7 @@ model Admin {
   id       String @id
   username String @unique
 }
-
+ 
 model Student {
   id          String       @id
   username    String       @unique
